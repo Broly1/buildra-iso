@@ -119,7 +119,7 @@ echo
 
 	desktop="plasma"
 
-	callithrixVersion='v25.09.30.01'
+	callithrixVersion='v25.10.03.01'
 
 	isoLabel='callithrix-'$callithrixVersion'-x86_64.iso'
 
