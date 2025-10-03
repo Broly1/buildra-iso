@@ -5,7 +5,9 @@ archinstall
 base
 base-devel
 linux
+linux-headers
 linux-firmware
+linux-firmware-nvidia
 amd-ucode
 intel-ucode
 mkinitcpio
@@ -89,8 +91,8 @@ rp-pppoe
 bind-tools
 dnsmasq
 ethtool
-lftp
 nbd
+timeshift
 ndisc6
 nfs-utils
 nmap
@@ -117,7 +119,6 @@ wireplumber
 alsa-utils
 brltty
 espeakup
-livecd-sounds
 bluez
 bluez-utils
 
@@ -145,6 +146,7 @@ libmtp
 gnome-disk-utility
 qbittorrent
 firefox
+vlc
 gimp
 telegram-desktop
 okular
@@ -177,7 +179,6 @@ zsh
 lsscsi
 polkit
 polkit-kde-agent
-lftp
 libfido2
 libusb-compat
 yay-git
@@ -185,3 +186,8 @@ yay-git
 ### 7.chaotic AUR
 chaotic-keyring
 chaotic-mirrorlist
+
+### 8. nvidia support
+nvidia-dkms
+nvidia-utils
+nvidia-settings
